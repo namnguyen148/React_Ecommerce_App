@@ -1,0 +1,143 @@
+img {
+  cursor: pointer;
+}
+
+.rowBanner {
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.carousel-inner {
+  border-radius: 0.375rem;
+}
+
+@media (min-width: 575px) {
+  .banner-content-right {
+    margin-left: -15px;
+  }
+  .banner-content-bottom {
+    width: 94%;
+  }
+}
+
+@media (max-width: 575px) {
+  .imgBanner {
+    margin-top: 0.5rem;
+  }
+}
+
+.product-title,
+.product-price {
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+}
+
+.container-btn-see-more {
+  width: 100%;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.btn-see-more {
+  min-width: 10rem;
+  height: 2.5rem;
+}
+
+.container-product-card {
+  /* width: 16.66667%; */
+  width: 210px;
+  padding: 0.3125rem;
+  box-sizing: border-box;
+}
+
+.container-product-skeleton {
+  width: 210px;
+  padding: 0.3125rem;
+  box-sizing: border-box;
+}
+
+.container-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 1501px) {
+  .container-row {
+    width: 1400px;
+  }
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  margin: 10px auto 0;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 0 2px #c0bfbf;
+}
+.service {
+  width: 120px;
+}
+
+@media (max-width: 740px) {
+  .service {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.imgService {
+  margin-bottom: 8px;
+}
+
+.categories {
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 0 2px #c0bfbf;
+}
+
+.categories > div {
+  width: 25%;
+  padding: 10px 20px 10px 10px;
+}
+
+.categories > div > div {
+  width: 60%;
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4) {
+  border-bottom: 1px solid #4149;
+}
+
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7) {
+  border-right: 1px solid #4149;
+}
+
+.card-wrapper {
+  padding: 15px;
+}
+
+.brand-img {
+  width: 40%;
+}

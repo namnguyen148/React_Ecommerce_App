@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+  .my-form > .row {
+    row-gap: 1rem;
+  }
+}

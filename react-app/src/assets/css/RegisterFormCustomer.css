@@ -1,0 +1,18 @@
+.formRegister {
+  margin-top: 3rem;
+}
+
+.addressInput {
+  margin-top: 2rem;
+}
+.errorValidate {
+  color: #dc3545;
+  font-size: .875em;
+  margin-top: 0.25rem
+}
+
+@media (min-width: 468px) and (max-width: 1399px) {
+  .address {
+    width: 210px;
+  }
+}

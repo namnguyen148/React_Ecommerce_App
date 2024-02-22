@@ -1,0 +1,82 @@
+.iconEdit:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.iconDelete:hover {
+  color: #ff1500;
+  cursor: pointer;
+}
+.iconActive:hover {
+  color: #2ba755;
+  cursor: pointer;
+}
+.deleteProduct:hover {
+  color: #ff1500;
+  cursor: pointer;
+}
+.statusOrder:hover {
+  color: #ff1500;
+  cursor: pointer;
+}
+.iconOrder:hover {
+  color: #2ba755;
+  cursor: pointer;
+}
+.btnFilter {
+  width: 3rem;
+  height: 2.35rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  margin-top: 2rem;
+}
+
+.btnClear {
+  width: 3rem;
+  height: 2.35rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  margin-top: 2rem;
+}
+
+.filterIcon {
+  width: 100%; 
+  height: 100%; 
+}
+
+.btn-end {
+  margin-left: auto;
+}
+
+.form-label-bold {
+  font-weight: bold;
+}
+.endDate ,.priceEnd {
+  margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  .endDate,
+  .priceEnd {
+    margin-top: 0.5rem;
+  }
+  .btnFilter, .btnClear {
+    margin-top: 1rem;
+  }
+}
+.cancelled {
+  color: red;
+}
+
+.completed {
+  color: green;
+}
+
+.btnAddress {
+  min-width: 7rem;
+}
+.addr_det {
+  min-width: 18rem;
+}

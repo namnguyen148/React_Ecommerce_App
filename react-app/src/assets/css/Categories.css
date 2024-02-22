@@ -1,0 +1,19 @@
+/* .navbarCategories {
+  background-color: brown;
+  padding: 0.25 rem;
+} */
+
+:root {
+  --bs-dropdown-item-padding-y: 0.25rem;
+  --bs-dropdown-item-padding-x: 1rem;
+}
+
+#nav-dropdown {
+  /* background-color: red; */
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+}
+
+.BtnSearchProducts {
+  margin-right: 0.5rem;
+}
+

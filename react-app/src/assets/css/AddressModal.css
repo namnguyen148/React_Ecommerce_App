@@ -1,0 +1,28 @@
+.addressInput {
+  margin-top: 2rem;
+}
+.addressOption {
+  border: 1px solid #bfbfbf;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.addressOption:hover {
+  border-color: #EF4040;
+  color: #EF4040;
+}
+.addressOption.selected {
+  border-color: #EF4040;
+  color: #EF4040;
+}
+.AddressModal {
+  max-width: 45rem;
+}
+@media (max-width: 767px) {
+  .telNum {
+    margin-top: 1rem;
+  }
+  .addrDet {
+    margin-top: 2rem;
+  }
+}

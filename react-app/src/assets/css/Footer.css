@@ -1,0 +1,27 @@
+.footer-font {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer-font-p {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer-font-ul li {
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-font-nation {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.footer-icon {
+  font-size: 0.9rem;
+}
